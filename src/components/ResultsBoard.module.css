@@ -1,0 +1,33 @@
+.result {
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.result span {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #010101;
+  -webkit-text-fill-color: transparent;
+}
+
+.progress {
+  width: 100%;
+  height: 3rem;
+  margin-block: 1rem;
+  border: 1px solid;
+  border-radius: var(--bd-rounded-sm);
+  overflow: hidden;
+  position: relative;
+  background-color: #fff;
+}
+
+.progress div {
+  width: 100%;
+  height: 100%;
+  border-radius: var(--bd-rounded-sm);
+  position: absolute;
+  inset-inline-start: -100%;
+  inset-block-start: 0;
+  transition: transform 0.5s ease;
+  background-color: #d4eadd;
+}

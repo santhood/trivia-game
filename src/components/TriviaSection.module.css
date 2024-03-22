@@ -1,0 +1,13 @@
+.trivia_section {
+  min-height: 100dvh;
+  padding-inline: 1.5rem;
+  padding-block: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trivia_section_wrapper {
+  width: 100%;
+  max-width: 31.25rem;
+}

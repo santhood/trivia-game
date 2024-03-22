@@ -1,0 +1,35 @@
+{
+  "name": "trivia-game",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/react": "^3.1.0",
+    "@fontsource-variable/raleway": "^5.0.18",
+    "@hookform/resolvers": "^3.3.4",
+    "@nanostores/react": "^0.7.2",
+    "@types/react": "^18.2.67",
+    "@types/react-dom": "^18.2.22",
+    "astro": "^4.5.8",
+    "nanostores": "^0.10.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.51.1",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^7.3.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-astro": "^0.32.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "prettier": "^3.2.5",
+    "prettier-config-standard": "^7.0.0",
+    "prettier-plugin-astro": "^0.13.0"
+  }
+}

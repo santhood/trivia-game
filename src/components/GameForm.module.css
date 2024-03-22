@@ -1,0 +1,51 @@
+.title {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.form {
+  margin-block-start: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.25rem;
+}
+
+.form_field {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  position: relative;
+}
+
+.form_field label {
+  padding-inline: 0.5rem;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  position: absolute;
+  inset-inline-start: 0.5rem;
+  color: #848484;
+  inset-block-start: 0;
+  transform: translateY(-50%);
+}
+
+.form_field label::after {
+  content: '';
+  height: 55%;
+  position: absolute;
+  inset-inline: 0;
+  inset-block-end: 0;
+  z-index: -2;
+  background-color: #fff;
+}
+
+.form_field input,
+.form_field select {
+  padding: 1rem;
+  border: 1px solid;
+  border-radius: var(--bd-rounded-sm);
+}
+
+.form_field p {
+  font-size: 0.75rem;
+  color: rgb(255, 96, 96);
+}
