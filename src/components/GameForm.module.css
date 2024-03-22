@@ -43,6 +43,7 @@
   padding: 1rem;
   border: 1px solid;
   border-radius: var(--bd-rounded-sm);
+  background-color: #fff;
 }
 
 .form_field p {
