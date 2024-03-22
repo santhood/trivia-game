@@ -11,7 +11,7 @@ const handleSchema = (categories) => {
     amount: z.number().min(1).max(15),
     category: z.enum(['', ...categories]),
     difficulty: z.enum(['', 'easy', 'medium', 'hard']),
-    type: z.enum(['', 'multiply', 'boolean'])
+    type: z.enum(['', 'multiple', 'boolean'])
   })
   return schema
 }
@@ -85,7 +85,7 @@ export default function GameForm() {
         <FormLabel label='Type'>
           <select {...register('type')}>
             <option value=''>Any type</option>
-            <option value='multiply'>Multipy Choice</option>
+            <option value='multiple'>Multipy Choice</option>
             <option value='boolean'>True/False</option>
           </select>
           {errors.type && <p>Invalid value received.</p>}
